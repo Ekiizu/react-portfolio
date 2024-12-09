@@ -1,0 +1,24 @@
+[
+    {
+        "slug": "react-countries-app",
+        "title": "React Countries App",
+        "description": "This was my meow meow meow React application",
+        "categories": ["Front-End Development"],
+        "technologies": ["React.js", "Bootstrap CSS"],
+        "images": [
+            {
+                "caption": "Screenshot 1",
+                "url": "/images/countries-1.png"
+            }
+        ],
+        "links": [
+            {
+                "title": "Website",
+                "url": "https://ca1-react-countries-emmahynes.web.app/"
+            }
+        ],
+        "date": "Nov 1 2024",
+        "github": "https://github.com/Ekiizu/CA1-rest-countries"
+    }
+    
+]

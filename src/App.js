@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
+import 'bulma/css/bulma.min.css';
 
 //import
 import Home from './pages/Home';
@@ -8,8 +8,8 @@ import Contact from './pages/Contact';
 import PageNotFound from './pages/PageNotFound';
 import RedirectExample from "./pages/RedirectExample";
 
-import BooksIndex from "./pages/books/Index"
-import BooksShow from "./pages/books/Show"
+import ProjectsIndex from "./pages/projects/Index"
+import ProjectsShow from "./pages/projects/Show"
 
 //components
 import Navbar from './components/Navbar';
@@ -27,8 +27,8 @@ const App = () => {
       <Route path={"/contact"} element={<Contact/>} />
       <Route path={"/redirect-example"} element={<RedirectExample/>} />
 
-      <Route path={"/books"} element={<BooksIndex/>} />
-      <Route path={"/books/:id"} element={<BooksShow/>} />
+      <Route path={"/projects"} element={<ProjectsIndex/>} />
+      <Route path={"/projects/:id"} element={<ProjectsShow/>} />
 
 
       <Route path={"/*"} element={<PageNotFound/>} />

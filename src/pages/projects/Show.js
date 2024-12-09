@@ -5,7 +5,7 @@ const Show = () => {
     let {id}  = useParams();
 
     return (
-        <h1>Hello from books / Show page, you are looking at book with the id: {id} </h1>
+        <h1>Hello from projects / Show page, you are looking at projects with the id: {id} </h1>
     );
 };
 
