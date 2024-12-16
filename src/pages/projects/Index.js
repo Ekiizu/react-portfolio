@@ -40,25 +40,30 @@ const Index = () => {
 
     return (
         <div className="container">
-
-
-            <div className="field has-addons">
-                <div className="control is-expanded">
-                    <input
-                        className="input search-bar"
-                        type="text"
-                        placeholder="Search projects"
-                        value={searchTerm}
-                        onChange={(e) => setSearchTerm(e.target.value)}
-                    />
-                </div>
-                <div className="control">
-                    <div className="select">
-                        <FilterProjects setSearchTerm={setSearchTerm} setSelectedCategory={setSelectedCategory} />
+            
+            <div className="section transparent-section">
+                <div className="field has-addons">
+                    <div className="control is-expanded">
+                        <input
+                            className="input search-bar"
+                            type="text"
+                            placeholder="Search projects"
+                            value={searchTerm}
+                            onChange={(e) => setSearchTerm(e.target.value)}
+                        />
+                    </div>
+                    <div className="control">
+                        <div className="select">
+                            <FilterProjects setSearchTerm={setSearchTerm} setSelectedCategory={setSelectedCategory} />
+                        </div>
                     </div>
                 </div>
             </div>
-            <div className="columns is-multiline">{projectCards}</div>
+
+            
+            <div className="section">
+                <div className="columns is-multiline">{projectCards}</div>
+            </div>
         </div>
     );
 };

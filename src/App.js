@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import 'bulma/css/bulma.min.css';
+import 'font-awesome/css/font-awesome.min.css';
 
 //import
 import Home from './pages/Home';

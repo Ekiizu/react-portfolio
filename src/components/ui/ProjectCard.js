@@ -4,8 +4,7 @@ import { Link } from 'react-router-dom';
 const ProjectCard = ({ project }) => {
     
     let techBadges = project.technologies.map((technology, i) => (
-        <span key={i} className="tag is-danger is-light mr-2"> 
-        {/* Button Colours */}
+        <span key={i} className="tag is-danger mr-2"> 
             {technology}
         </span>
     ));
@@ -28,16 +27,15 @@ const ProjectCard = ({ project }) => {
                 </div>
                 <div className="content">
                     <p>{project.description}</p>
-                    <div className="tags mt-2">
+                    <div className="tags mt-4">
                         {techBadges}
                     </div>
                 </div>
-            </div>
-            <footer className="card-footer">
-                <Link to={`/projects/${project.slug}`} className="card-footer-item button is-danger is-light">
+                <Link to={`/projects/${project.slug}`} className="card-footer-item button is-danger">
                     View Project
                 </Link>
-            </footer>
+            </div>
+           
         </div>
     );
 };

@@ -7,13 +7,14 @@ const Navbar = () => {
             role="navigation"
             aria-label="main navigation"
             style={{
-                background: 'linear-gradient(to right,rgb(127, 226, 132),rgb(254, 123, 156))', // Gradient from pink to orange
+                background: 'linear-gradient(to right,rgb(162, 219, 135),rgb(254, 123, 156))', // Gradient from pink to orange
             }}
         >
             <div className="navbar-brand">
-                <a className="navbar-item white-text" href="/">
-                    <strong>Ekiizu Portfolio</strong>
-                </a>
+            <a className="navbar-item white-text custom-font" href="/">
+            <strong>Ekiizu</strong>
+            </a>
+
 
                 <a
                     role="button"
@@ -42,12 +43,13 @@ const Navbar = () => {
                     <Link to="/about" className="navbar-item">
                         About
                     </Link>
-                    <Link to="/contact" className="navbar-item">
-                        Contact
-                    </Link>
                     <Link to="/projects" className="navbar-item">
                         Projects
                     </Link>
+                    <Link to="/contact" className="navbar-item">
+                        Contact
+                    </Link>
+                   
                 </div>
             </div>
         </nav>

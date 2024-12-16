@@ -47,7 +47,6 @@ const Show = () => {
                 ></iframe>
                  </div>
         
-                 https://www.youtube.com/watch?v=vTdBWiktLQ0
                 
             </div>
         </div>

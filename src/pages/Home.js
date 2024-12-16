@@ -2,54 +2,57 @@ import React, { useState, useRef } from "react";
 import "../css/index.css";
 import ParticlesBackground from "../components/ui/ParticlesBackground"; 
 
-
 const Home = () => {
-
     const [isPlaying, setIsPlaying] = useState(false);
-  const audioRef = useRef(null);
+    const audioRef = useRef(null);
 
-  const toggleMusic = () => {
-    if (isPlaying) {
-      audioRef.current.pause();
-    } else {
-      audioRef.current.play();
-    }
-    setIsPlaying(!isPlaying);
-
-};
+    const toggleMusic = () => {
+        if (isPlaying) {
+            audioRef.current.pause();
+        } else {
+            audioRef.current.play();
+        }
+        setIsPlaying(!isPlaying);
+    };
 
     return (
-        <div className="home-container">
-            <h1>Hello from Home Page!!! (˶˃ᆺ˂˶)</h1>
-            <img 
-                src="https://media.tenor.com/MWIAxMsqaGUAAAAi/glorp-gets-what-it-deserves.gif" 
-                alt="Gif" 
-                className="centered-gif" 
-            />
-            <div className="about-page">
+        <div className="home-page">
             <ParticlesBackground />
-            <div className="about-container">
-                <div className="profile-section">
-                    
-                    <img src="/images/MOSA CROP.png" alt="Your Profile" className="profile-picture" />
+        <div className="home-container">
+            
+            <div className="profile-section">
+                <img src="/images/MOSA CROP.png" alt="Your Profile" className="profile-picture" />
+                <h1>Welcome!</h1>
+                <h2>Hello from my Portfolio!!! (˶˃ᆺ˂˶)</h2>
+                <p>
+                     My Name is Emma! (Ekiizu)
+                </p>
 
-                    <h1>WELCOME</h1>
-                    <p>
-                        Hello, My name is Emma, ooh long ass paragraph about me as a person and how cool and talented I am and also why you should hire me 
-                    </p>
-                </div>
+                <p> 
+                    Feel free to browse my work and see what I’ve been working on!
+                </p>
+                  
+                
+                
+                <button 
+                    onClick={toggleMusic} 
+                    className={`button ${isPlaying ? "is-danger" : "is-dark"} is-small`}
+                >
+                    {isPlaying ? "Pause" : "Play Music"}
+                </button>
+                <audio ref={audioRef} loop>
+                    <source src="/mp3/P5 Beneath the Mask.mp3" type="audio/mpeg" />
+                </audio>
+            
             </div>
-        </div>
 
-            {/* wanted to add music */}
-            <button onClick={toggleMusic}>
-                {isPlaying ? "Pause" : "Play Music"}
-            </button>
-            <audio ref={audioRef} loop>
-                <source src="/mp3/P5 SMASH.mp3" type="audio/mpeg" />
-            </audio>
-                </div>
-            );
+            
+
+           
+            
+        </div>
+        </div>
+    );
 };
 
 export default Home;

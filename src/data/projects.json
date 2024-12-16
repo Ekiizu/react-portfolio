@@ -7,7 +7,7 @@
         "technologies": ["React.js", "Bootstrap CSS"],
         "images": [
             {
-                "url": "cat-cat-snore.gif"
+                "url": "reactcountries.png"
             }
         ],
         "links": [
@@ -92,7 +92,7 @@
         "technologies": ["Laravel", "PHP"],
         "images": [
             {
-                "url": "Mosa.png"
+                "url": ""
             }
         ],
         "links": [

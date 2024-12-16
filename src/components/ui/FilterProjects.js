@@ -15,7 +15,7 @@ const FilterProjects = ({ setSearchTerm, setSelectedCategory }) => {
                 <option value={"Back-End Development"}>Back-End</option>
                 <option value={"Full-Stack"}>Full-Stack</option>
                 <option value={"Design"}>Design</option>
-                {categoryOptions}
+                
             </select>
         </>
     );
