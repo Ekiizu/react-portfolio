@@ -2,13 +2,12 @@
     {
         "slug": "react-countries-app",
         "title": "React Countries App",
-        "description": "This was my meow meow meow React application",
+        "description": "Front-End CA1",
         "categories": ["Front-End Development"],
         "technologies": ["React.js", "Bootstrap CSS"],
         "images": [
             {
-                "caption": "Screenshot 1",
-                "url": "/images/countries-1.png"
+                "url": "cat-cat-snore.gif"
             }
         ],
         "links": [
@@ -19,6 +18,91 @@
         ],
         "date": "Nov 1 2024",
         "github": "https://github.com/Ekiizu/CA1-rest-countries"
+    },
+
+    {
+        "slug": "medical-app",
+        "title": "Medical API",
+        "description": "Front-End CA2",
+        "categories": ["Front-End Development"],
+        "technologies": ["React.js", "Bulma"],
+        "images": [
+            {
+                "url": "thumbs-up-cat.gif"
+            }
+        ],
+        "links": [
+            {
+                "title": "Website",
+                "url": ""
+            }
+        ],
+        "date": "December 15th 2024",
+        "github": "https://github.com/Ekiizu/CA2-MedicalClinic"
+    },
+
+    {
+        "slug": "Portfolio",
+        "title": "Portfolio",
+        "description": "Dude you are already on this website",
+        "categories": ["Front-End Development"],
+        "technologies": ["React.js", "Bulma"],
+        "images": [
+            {
+                "url": "speech-bubble-meme-gentlemen-cat.gif"
+            }
+        ],
+        "links": [
+            {
+                "title": "Website",
+                "url": ""
+            }
+        ],
+        "date": "December 15th 2024",
+        "github": "https://github.com/Ekiizu/react-portfolio"
+    },
+
+    {
+        "slug": "ParkGlorp",
+        "title": "ParkGlorp",
+        "description": "PARKGLORPING!",
+        "miro": "https://miro.com/app/live-embed/uXjVLCG1gk0=/?moveToViewport=88,-583,9582,4756&embedId=37887089070",
+        "categories": ["Game Development"],
+        "technologies": ["Unity", "C+"],
+        "images": [
+            {
+                "url": "Mosa.png"
+            }
+        ],
+        "links": [
+            {
+                "title": "Website",
+                "url": ""
+            }
+        ],
+        "date": "December 15th 2024",
+        "github": "https://github.com/RyanCri/ParkGlorp"
+    },
+
+    {
+        "slug": "Software Project",
+        "title": "Software Project",
+        "description": "Software Project 2nd Year",
+        "categories": ["Back-End Development"],
+        "technologies": ["Laravel", "PHP"],
+        "images": [
+            {
+                "url": "Mosa.png"
+            }
+        ],
+        "links": [
+            {
+                "title": "Website",
+                "url": ""
+            }
+        ],
+        "date": "April 26th 2024",
+        "github": "https://github.com/Ekiizu/SoftwareProject"
     }
-    
 ]
+    

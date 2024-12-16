@@ -12,7 +12,7 @@ import ProjectsIndex from "./pages/projects/Index"
 import ProjectsShow from "./pages/projects/Show"
 
 //components
-import Navbar from './components/Navbar';
+import Navbar from './components/ui/Navbar';
 
 
 
@@ -28,7 +28,7 @@ const App = () => {
       <Route path={"/redirect-example"} element={<RedirectExample/>} />
 
       <Route path={"/projects"} element={<ProjectsIndex/>} />
-      <Route path={"/projects/:id"} element={<ProjectsShow/>} />
+      <Route path={"/projects/:slug"} element={<ProjectsShow/>} />
 
 
       <Route path={"/*"} element={<PageNotFound/>} />
