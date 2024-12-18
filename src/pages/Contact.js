@@ -11,7 +11,7 @@ const Contact = () => {
                 <img src="/images/MOSA CROP.png" alt="Your Profile" className="profile-picture" />
                     <h1>Contact Me</h1>
                     
-
+                    <h2>-`♡´-</h2>
                     <div className="contact-info">
                     <p> <a href="mailto:ekiizu2003@gmail.com"><i className="fa fa-envelope"></i> ekiizu2003@gmail.com</a></p>
                     
@@ -23,7 +23,7 @@ const Contact = () => {
                     </div>
 
                     
-                    <div>
+                    {/* <div>
                     <h2>CV</h2>
                     
                     <embed
@@ -32,7 +32,7 @@ const Contact = () => {
                     height="400px" 
                     title="PDF Viewer"
                      />
-                    </div>
+                    </div> */}
             
                 </div>
             </div>

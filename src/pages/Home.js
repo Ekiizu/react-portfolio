@@ -23,9 +23,11 @@ const Home = () => {
             <div className="profile-section">
                 <img src="/images/MOSA CROP.png" alt="Your Profile" className="profile-picture" />
                 <h1>Welcome!</h1>
-                <h2>Hello from my Portfolio!!! (˶˃ᆺ˂˶)</h2>
+                <h2>Hello from my Portfolio!</h2>
+                <h1>-`♡´-</h1>
+
                 <p>
-                     My Name is Emma! (Ekiizu)
+                     My name is Ekiizu!
                 </p>
 
                 <p> 
@@ -41,7 +43,7 @@ const Home = () => {
                     {isPlaying ? "Pause" : "Play Music"}
                 </button>
                 <audio ref={audioRef} loop>
-                    <source src="/mp3/P5 Beneath the Mask.mp3" type="audio/mpeg" />
+                    <source src="/mp3/Brand New Days.mp3" type="audio/mpeg" />
                 </audio>
             
             </div>

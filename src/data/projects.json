@@ -1,4 +1,36 @@
-[
+[ {
+    "slug": "ParkGlorp",
+    "title": "ParkGlorp",
+    "description": "PARKGLORPING! (Game Development)",
+    "miro": "https://miro.com/app/live-embed/uXjVLCG1gk0=/?moveToViewport=88,-583,9582,4756&embedId=37887089070",
+    "categories": ["Game Development"],
+    "technologies": ["Unity", "C+"],
+  "images": [
+            {
+                "url": "Mosa.png"
+            },
+            {
+                "url":"ParkGlorpLogo.png"
+            },
+            {
+                "url": "twoofthem.png"
+            },
+            {
+                "url": "Ortho_Alien_Girl.png"
+            }
+         
+        ],
+
+    "links": [
+        {
+            "title": "Game",
+            "url": ""
+        }
+    ],
+    "date": "December 15th 2024",
+    "github": "https://github.com/RyanCri/ParkGlorp"
+},
+
     {
         "slug": "react-countries-app",
         "title": "React Countries App",
@@ -7,7 +39,13 @@
         "technologies": ["React.js", "Bootstrap CSS"],
         "images": [
             {
-                "url": "reactcountries.png"
+                "url": "thumbs-up-cat.gif"
+            },
+            {
+                "url": "thumbs-up-cat.gif"
+            },
+            {
+                "url": "thumbs-up-cat.gif"
             }
         ],
         "links": [
@@ -29,12 +67,18 @@
         "images": [
             {
                 "url": "thumbs-up-cat.gif"
+            },
+            {
+                "url": "thumbs-up-cat.gif"
+            },
+            {
+                "url": "thumbs-up-cat.gif"
             }
         ],
         "links": [
             {
                 "title": "Website",
-                "url": ""
+                "url": "https://ca2-medicalclinic.web.app/"
             }
         ],
         "date": "December 15th 2024",
@@ -44,55 +88,47 @@
     {
         "slug": "Portfolio",
         "title": "Portfolio",
-        "description": "Dude you are already on this website",
+        "description": "You are already here my guy",
         "categories": ["Front-End Development"],
         "technologies": ["React.js", "Bulma"],
         "images": [
             {
-                "url": "speech-bubble-meme-gentlemen-cat.gif"
+                "url": "thumbs-up-cat.gif"
+            },
+            {
+                "url": "thumbs-up-cat.gif"
+            },
+            {
+                "url": "thumbs-up-cat.gif"
             }
         ],
         "links": [
             {
                 "title": "Website",
-                "url": ""
+                "url": "https://ekiizuportfolio.web.app/"
             }
         ],
         "date": "December 15th 2024",
         "github": "https://github.com/Ekiizu/react-portfolio"
     },
 
-    {
-        "slug": "ParkGlorp",
-        "title": "ParkGlorp",
-        "description": "PARKGLORPING!",
-        "miro": "https://miro.com/app/live-embed/uXjVLCG1gk0=/?moveToViewport=88,-583,9582,4756&embedId=37887089070",
-        "categories": ["Game Development"],
-        "technologies": ["Unity", "C+"],
-        "images": [
-            {
-                "url": "Mosa.png"
-            }
-        ],
-        "links": [
-            {
-                "title": "Website",
-                "url": ""
-            }
-        ],
-        "date": "December 15th 2024",
-        "github": "https://github.com/RyanCri/ParkGlorp"
-    },
-
+   
     {
         "slug": "Software Project",
         "title": "Software Project",
-        "description": "Software Project 2nd Year",
+        "description": "Software Project (End of Second Year)",
+        "miro": "https://miro.com/app/live-embed/uXjVN2l8yvg=/?moveToViewport=-2181,-1742,6972,3460&embedId=97317098096",
         "categories": ["Back-End Development"],
         "technologies": ["Laravel", "PHP"],
         "images": [
             {
-                "url": ""
+                "url": "thumbs-up-cat.gif"
+            },
+            {
+                "url": "thumbs-up-cat.gif"
+            },
+            {
+                "url": "thumbs-up-cat.gif"
             }
         ],
         "links": [

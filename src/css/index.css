@@ -77,6 +77,7 @@
 h1 {
     color: #f85a82;
     margin-bottom: 10px;
+    margin-top: 15px;
     font-size: 24px;
 }
 
@@ -84,6 +85,7 @@ p {
     color: #555;
     font-size: 16px;
     line-height: 1.5;
+    margin-top: 10px;
 }
 
 /* styling for contact page */
@@ -127,7 +129,7 @@ p {
 }
 
 .contact-info a {
-    color: #60ce52;
+    color: #a2db87;
     text-decoration: none;
     
 }
@@ -160,79 +162,10 @@ p {
 
 h2{
     color: #1a202c;
+    margin-bottom: 10px;
 }
 
 
-
-/* Styling for the Project Show page */
-.show-page {
-    
-    padding: 30px;
-    max-width: 900px;
-    margin: 0 auto;
-    font-family: 'Arial', sans-serif;
-    color: #1b1616;
-}
-
-.show-page h2 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 20px;
-    color: #1a202c;
-}
-
-.show-page p {
-    font-size: 1.2rem;
-    line-height: 1.6;
-    margin-bottom: 15px;
-    color: #3c4149;
-}
-
-.show-page .technologies {
-    font-size: 1rem;
-    font-weight: 100;
-    color: #000000;
-}
-
-
-/* Style for the project title and description */
-.show-page .project-details {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
-}
-
-/* Style for technologies list */
-.show-page .technologies-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.show-page .technologies-list span {
-    background-color: #f33061;
-    color: white;
-    padding: 6px 12px;
-    border-radius: 10px;
-    font-size: 0.9rem;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .show-page {
-        padding: 20px;
-    }
-
-    .show-page h2 {
-        font-size: 2rem;
-    }
-
-    .show-page p {
-        font-size: 1rem;
-    }
-}
 
 
 .artwork-section {
@@ -266,24 +199,36 @@ h2{
 }
 
 .contact-info a {
-    color: #e24a77; /* contact link colors */
+    color: #e24a77;
 }
 
 .contact-info a:hover {
-    color: #8cdb90; /* hover for links */
+    color:#a2db87; 
+}
+
+.contact-info i {
+   padding-right: 15px;
 }
 
 
 
+.profile-section a {
+    color: #e24a77; 
+}  
+
+.profile-section a:hover {
+    color: #a2db87; 
+}
+
+
 .navbar-burger {
-    color: #ffffff; /* Example color */
+    color: #ffffff; 
   }
   
   .navbar-burger span {
-    background-color:#8cdb90; /* Change background color of the hamburger lines */
+    background-color:#a2db87; /* Change background color of the hamburger lines */
   }
 
 
 
 
-  
